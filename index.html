@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="index.html"></script>
+    <script src="index.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -12,25 +12,30 @@
 
 
     <div id="main-content">
-        <h1>BlankBook</h1>
+        <h1><strong>"A <em>quote</em> a day, keeps the sorrows away!"</strong></h1>
+
+        <div id="imageHere">
+            <img class="beach-image" src="https://source.unsplash.com/1600x900/?beach" alt="beach image" width="850" height="300"/>
+        </div>
+        <!-- <img src="https://random.imagecdn.app/500/150"> -->
+
+        <div id="social-media-post">
+            <h2> test <!--API quote in here--> </h2>
+        </div>
 
 
-        // fetched data
-
-
-        <div id="list">
-            <h2>test23</h2>
-            <ul id="tasks">
+        <div id="comment-chain">
+            <p>comments</p>
+            <ul id="comments">
             </ul>
           </div>
 
 
         <form id="create-task-form" action="" method="POST">
-          <label for="new-task-description">Share your thoughts: </label>
-          <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
-          <input type="submit" value="Create New Task">
+          <label for="new-task-description">How do you feel? </label>
+          <input type="text" id="new-task-description" name="new-task-description" placeholder="Comment Here">
+          <input type="submit" value="Share">
         </form>
-
 
 
 
